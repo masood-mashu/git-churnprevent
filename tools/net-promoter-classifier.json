@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "classify_nps_sentiment",
+  "description": "Classifies survey responses into standard NPS categories (Promoter, Passive, Detractor)",
+  "type": "object",
+  "properties": {
+    "nps_score_json": {
+      "type": "string",
+      "description": "JSON with nps_score integer from 0 to 10"
+    }
+  },
+  "required": [
+    "nps_score_json"
+  ]
+}

@@ -1,0 +1,25 @@
+spec_version: "0.1.0"
+name: "git-churnprevent"
+version: "0.1.0"
+description: "Autonomous SaaS Customer Retention, Usage Velocity Scoring & Playbook Intervention Agent"
+framework: "opengap"
+authors:
+  - name: "masood-mashu"
+    email: "masoodmashu03@gmail.com"
+license: "Apache-2.0"
+
+runtime:
+  language: "python"
+  version: ">=3.10"
+  timeout: 120
+
+tags:
+  - marketing-sales
+  - churn-prevention
+  - customer-success
+  - saas-retention
+  - passport-challenge
+
+metadata:
+  passport_id: "aps-churnprevent-01"
+  passport_category: "Marketing & sales"

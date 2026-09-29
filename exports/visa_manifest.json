@@ -1,0 +1,28 @@
+{
+  "agent": "git-churnprevent",
+  "passport_id": "aps-churnprevent-01",
+  "category": "Marketing & sales",
+  "visas_earned": "15/15",
+  "visa_list": [
+    "system-prompt",
+    "claude-code",
+    "openai",
+    "crewai",
+    "openclaw",
+    "nanobot",
+    "lyzr",
+    "github",
+    "copilot",
+    "opencode",
+    "cursor",
+    "gemini",
+    "codex",
+    "kiro",
+    "gitclaw"
+  ],
+  "checkpoint_status": {
+    "checkpoint_01": "VERIFIED",
+    "checkpoint_02": "VERIFIED_PASS",
+    "checkpoint_03": "READY"
+  }
+}

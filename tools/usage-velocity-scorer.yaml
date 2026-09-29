@@ -1,0 +1,14 @@
+name: "usage-velocity-scorer"
+description: "Computes rolling 14-day user active session velocity compared to previous period"
+version: "0.1.0"
+runtime:
+  language: "python"
+  entrypoint: "usage_velocity_scorer.py"
+parameters:
+  type: "object"
+  properties:
+    velocity_json:
+      type: "string"
+      description: "JSON with current_wau and previous_wau"
+  required:
+    - "velocity_json"

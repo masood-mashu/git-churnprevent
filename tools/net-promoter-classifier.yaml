@@ -1,0 +1,14 @@
+name: "net-promoter-classifier"
+description: "Classifies survey responses into standard NPS categories (Promoter, Passive, Detractor)"
+version: "0.1.0"
+runtime:
+  language: "python"
+  entrypoint: "net_promoter_classifier.py"
+parameters:
+  type: "object"
+  properties:
+    nps_score_json:
+      type: "string"
+      description: "JSON with nps_score integer from 0 to 10"
+  required:
+    - "nps_score_json"

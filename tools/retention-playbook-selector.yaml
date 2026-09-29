@@ -1,0 +1,14 @@
+name: "retention-playbook-selector"
+description: "Selects targeted CS intervention playbook based on churn risk level and account tier"
+version: "0.1.0"
+runtime:
+  language: "python"
+  entrypoint: "retention_playbook_selector.py"
+parameters:
+  type: "object"
+  properties:
+    account_profile_json:
+      type: "string"
+      description: "JSON with arr_tier (ENTERPRISE, MID_MARKET, SMB) and risk_level"
+  required:
+    - "account_profile_json"

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "score_usage_velocity",
+  "description": "Computes rolling 14-day user active session velocity compared to previous period",
+  "type": "object",
+  "properties": {
+    "velocity_json": {
+      "type": "string",
+      "description": "JSON with current_wau and previous_wau"
+    }
+  },
+  "required": [
+    "velocity_json"
+  ]
+}
